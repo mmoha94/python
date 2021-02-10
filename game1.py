@@ -5,7 +5,7 @@ def guss(x):
    k = 0
    while int(addad) !=rand_num :
        k = k + 1
-       addad=input('Enter Number:')
+       addad=input('Enter Number Between (0,'+str(x)+'):')
        
        if  int(addad) < rand_num :
             print ('less than...')
